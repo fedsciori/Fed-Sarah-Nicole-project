@@ -54,7 +54,7 @@ background-repeat: no-repeat; webkit-background-size: cover;
  /* Navbar container */
  .navbar {
    overflow: hidden;
-   background-color: #333;
+   background-color: #dddddd;
    font-family: Arial;
  }
 
@@ -62,7 +62,7 @@ background-repeat: no-repeat; webkit-background-size: cover;
  .navbar a {
    float: right;
    font-size: 16px;
-   color: white;
+   color: black;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -119,4 +119,21 @@ background-repeat: no-repeat; webkit-background-size: cover;
  /* Show the dropdown menu on hover */
  .dropdown:hover .dropdown-content {
    display: block;
+ }
+
+ .btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+ }
+ .btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+ }
+ .btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+ }
+
+ #social-buttons button {
+  color: white
  }
