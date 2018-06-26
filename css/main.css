@@ -124,7 +124,7 @@ background-repeat: no-repeat; webkit-background-size: cover;
  .social {
    text-align: center;
    padding: 10px;
-   justify-content: center;
+   padding-top: 30px;
 }
 
 .social button {
