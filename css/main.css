@@ -35,7 +35,7 @@ letter-spacing: 10px;
 }
 
 .nav{
-   list-style-type:none;}
+   list-style-type:block;}
    li {
      float: left;
  }
@@ -121,30 +121,55 @@ background-repeat: no-repeat; webkit-background-size: cover;
    display: block;
  }
 
+ .social {
+   text-align: center;
+   padding: 10px;
+   justify-content: center;
+}
+
+.social button {
+  color: white;
+ }
+
  .btn-twitter {
-  background: #00acee;
+  background: #4868ac;
   border-color: #009ad5;
+
  }
  .btn-facebook {
   background: #4868ac;
   border-color: #314776;
+
  }
  .btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
- }
+}
 
- #social-buttons button {
-  color: white
- }
+
+
 
 
  ul {
+
     display: block;
     list-style-type: disc;
     margin-top: 1em;
-    margin-bottom: 1 em;
-    margin-left: 0;
+    margin-bottom: 1em;
+    margin-left: 10px;
     margin-right: 0;
     padding-left: 40px;
+    float: left;
+    clear: left;
+}
+
+
+ul {
+  list-style-position: inside;
+}
+
+.Recipes li
+{
+    float: left;
+    clear: left;
 }
